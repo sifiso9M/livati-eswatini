@@ -2,12 +2,12 @@
 import { useState } from "react";
 import Image from "next/image";
 
-const WHATSAPP_NUMBER = "268XXXXXXXX";
+const WHATSAPP_NUMBER = "26876794975";
 const NAV_LINKS = [
   { name: "Home", href: "#" },
   { name: "Products", href: "#products" },
   { name: "Gallery", href: "#gallery" },
-  { name: "Contact", href: `https://wa.me${WHATSAPP_NUMBER}` },
+  { name: "Contact", href: `https://wa.me/${WHATSAPP_NUMBER}` }, 
 ];
 
 export default function Home() {
@@ -64,9 +64,13 @@ export default function Home() {
             </h1>
             <p className="text-lg text-slate-600 mb-10 max-w-lg leading-relaxed">
               Sourced from the heart of nature, Livati brings you purity in every drop. 
-              The gold standard for Eswatini’s homes and businesses.
+               The gold standard for Eswatini’s homes and businesses.
             </p>
-            <a href={`https://wa.me${WHATSAPP_NUMBER}`} className="inline-flex items-center px-10 py-5 bg-blue-700 text-white font-bold rounded-full hover:bg-blue-800 transition-all shadow-xl shadow-blue-200">
+
+            <p className="mb-6 font-semibold text-blue-700">
+               Call or WhatsApp: +{WHATSAPP_NUMBER}
+            </p>
+            <a href={`https://wa.me/${WHATSAPP_NUMBER}`} className="inline-flex items-center px-10 py-5 bg-blue-700 text-white font-bold rounded-full hover:bg-blue-800 transition-all shadow-xl shadow-blue-200">
               Order on WhatsApp
             </a>
           </div>
@@ -152,9 +156,14 @@ export default function Home() {
       </h3>
 
       <p className="text-blue-100">
-        Nature&apos;s Liquid Treasure.
-        Premium hydration for Eswatini.
+         Distributor inquiries,
+         events, offices and retail supply.
       </p>
+
+      <p className="text-blue-100 mt-4 font-semibold">
+        +{WHATSAPP_NUMBER}
+    </p>
+        
     </div>
 
     <div>
