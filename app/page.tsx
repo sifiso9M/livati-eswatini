@@ -70,7 +70,12 @@ export default function Home() {
             <p className="mb-6 font-semibold text-blue-700">
                Call or WhatsApp: +{WHATSAPP_NUMBER}
             </p>
-            <a href={`https://wa.me/${WHATSAPP_NUMBER}`} className="inline-flex items-center px-10 py-5 bg-blue-700 text-white font-bold rounded-full hover:bg-blue-800 transition-all shadow-xl shadow-blue-200">
+<a
+  href={`https://wa.me/${WHATSAPP_NUMBER}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="relative z-30 inline-flex items-center px-10 py-5 bg-blue-700 text-white font-bold rounded-full hover:bg-blue-800 transition-all shadow-xl shadow-blue-200 cursor-pointer"
+>
               Order on WhatsApp
             </a>
           </div>
