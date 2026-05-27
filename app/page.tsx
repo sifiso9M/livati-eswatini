@@ -99,15 +99,6 @@ export default function Home() {
               </span>
             </h1>
 
-            <p className="text-lg text-slate-600 mb-10 max-w-lg leading-relaxed">
-              Sourced from the heart of nature, Livati brings you purity in every drop. 
-               The gold standard for Eswatini’s homes and businesses.
-            </p>
-
-            <p className="mb-6 font-semibold text-blue-700">
-               Call or WhatsApp: +{WHATSAPP_NUMBER}
-            </p>
-
             <p className="text-slate-600 text-lg leading-relaxed max-w-xl mb-8">
               Premium purified bottled water crafted for homes,
               businesses, retailers and events across Eswatini.
