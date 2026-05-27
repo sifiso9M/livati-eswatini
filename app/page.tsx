@@ -387,7 +387,7 @@ export default function Home() {
             >
               Distributor Form
             </a>
-
+         </div> 
         </div>
 
       </section>
