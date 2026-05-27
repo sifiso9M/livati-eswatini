@@ -11,11 +11,7 @@ const NAV_LINKS = [
   { name: "Home", href: "#" },
   { name: "Products", href: "#products" },
   { name: "Gallery", href: "#gallery" },
-
-  { name: "Contact", href: `https://wa.me/${WHATSAPP_NUMBER}` 
-
   { name: "Contact", href: "#contact" },
-
 ];
 
 export default function Home() {
