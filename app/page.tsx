@@ -24,7 +24,7 @@ export default function Home() {
       <nav className="flex justify-between items-center px-6 md:px-20 py-5 bg-white/70 backdrop-blur-xl sticky top-0 z-50 border-b border-blue-100">
 
 <Image
-  src="/images/livati-logo.png?v=3"
+  src="/images/livati-logo.png"
   alt="Livati Logo"
   width={110}
   height={50}
